@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class triggerreactor : MonoBehaviour
+public class Triggerreactor : MonoBehaviour
 {
     public UnityEvent m_OnTriggerEnter;
     public UnityEvent m_OnTriggerStay;
@@ -11,7 +11,9 @@ public class triggerreactor : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        Debug.Log("test");
         m_OnTriggerEnter.Invoke();
+        
 
     }
     public void OnTriggerStay(Collider other)
