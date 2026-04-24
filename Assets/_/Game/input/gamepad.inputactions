@@ -472,17 +472,6 @@
                     "action": "right stick",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "41685801-37f3-4f36-9290-d960f5d023b3",
-                    "path": "<Mouse>/position",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "right stick",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         }
